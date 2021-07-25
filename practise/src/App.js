@@ -1,12 +1,9 @@
-import { useState } from "react";
-
+import Superheros from './components/superhero'
 function App() {
- 
-  
   return (
     
    <div>
-      HI
+     <Superheros/>
    </div>
   );
 
