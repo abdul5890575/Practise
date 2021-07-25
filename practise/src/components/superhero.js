@@ -24,6 +24,7 @@ function Superhero() {
              value={search}
              onChange={(event)=>{setSearch(event.target.value)}}
              ></input>
+             <button type="submit" onclick={OnSubmit}>Search</button>
          </form>
         <p>{search}</p>
         {state && <HeroList herodata={state}/>}
